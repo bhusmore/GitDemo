@@ -10,6 +10,11 @@ import org.openqa.selenium.devtools.v119.network.Network;
 import org.openqa.selenium.devtools.v119.network.model.AuthChallengeResponse.Response;
 
 public class Test {
+	
+	void ArcMethod1()
+	{
+		System.out.println("Branch 1");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -32,11 +37,10 @@ public class Test {
         });
         
         driver.get("https://rahulshettyacademy.com/angularAppdemo/");
-
-
-
-
-
-	}
+        
+        
+}
+	
+	
 
 }
