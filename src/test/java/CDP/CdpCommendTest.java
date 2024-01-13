@@ -29,6 +29,9 @@ public class CdpCommendTest {
 		System.out.println("Added my user Y line 1");
 		System.out.println("Added my user Y line 2");
 		
+		System.out.println("Added my user X line 1");
+		System.out.println("Added my user X line 2");
+		
 		
 
 	}
