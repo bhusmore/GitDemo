@@ -26,9 +26,12 @@ public class CdpCommendTest {
 		driver.executeCdpCommand("Emulation.setDeviceMetricsOverride", deviceMetrics);
 		
 		driver.get("https://rahulshettyacademy.com/");
+		System.out.println("Added my user Y line 1");
+		System.out.println("Added my user Y line 2");
 		
 		
 
 	}
 
 }
+
